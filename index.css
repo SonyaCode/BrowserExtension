@@ -5,7 +5,6 @@ body {
     min-width: 450px;
 }
 
-
 input {
     width: 500px;
     height: 50px;
@@ -18,16 +17,20 @@ input:valid {
     background-color: rgb(228, 253, 255);
 }
 
-
 button {
-    width: 150px;
-    height: 40px;
+    padding: 12px;
     margin-top: 5px;
     background-color: #5f9341;
-    border: none;
+    border: #5f9341 solid 1px;
     color: white;
     font-weight: 600;
 }
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
 
 /* STYLE THE LIST ACCORDING TO THE DESIGN */
 ul {
@@ -44,4 +47,3 @@ li {
 a {
     color: #5f9341;
 }
- 
